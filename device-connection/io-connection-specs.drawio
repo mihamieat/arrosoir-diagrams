@@ -1,0 +1,188 @@
+<mxfile host="Electron" modified="2024-05-04T11:14:01.767Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="QHEvbrgTrtRQqCODC9XG" version="24.2.5" type="device">
+  <diagram name="Page-1" id="aX6zw4IpMoriU1rQi0ZU">
+    <mxGraphModel dx="2138" dy="2344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-1" value="User powers on the device" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-166.06" y="-1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-2" value="Sync button pressed and maintained for 5 seconds?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-606.06" y="-700" width="292" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-3" value="Device tries to connect to the internet" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-166.06" y="-1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-4" value="Connected to internet?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-192.06" y="-860" width="172" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-5" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-1" target="qGI_YBjwfrNhiwj2qlSC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13.940000000000001" y="-750" as="sourcePoint" />
+            <mxPoint x="63.94" y="-800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-9" value="Device authenticates to users database" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-166.06" y="-620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-10" value="Device sends data" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-166.06" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-11" value="Not connected LED blinks" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-520.06" y="-850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-13" value="Sync LED blinking" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-536.06" y="-500" width="152" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-14" value="User syncs bluetooth from the app" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-530.06" y="-350" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-15" value="Device successfully connected to the phone via bluetooth?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-606.06" y="-210" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-16" value="User is invited to try again" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-786.06" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-17" value="User is able to enter wifi SSID and password from the app and these data are loaded to the device" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-580.12" y="-80" width="240.12" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-18" value="Device is connected to the internet?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-580.06" y="60" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-19" value="User is invited to try again" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-786.06" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-20" value="Connected LED blinks" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-166.06" y="-720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-21" value="" style="endArrow=classic;html=1;rounded=1;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-3" target="qGI_YBjwfrNhiwj2qlSC-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160.06" y="-870" as="sourcePoint" />
+            <mxPoint x="-110.06" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-23" value="" style="endArrow=classic;html=1;rounded=1;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-20" target="qGI_YBjwfrNhiwj2qlSC-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-0.05999999999999872" y="-690" as="sourcePoint" />
+            <mxPoint x="49.94" y="-740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-24" value="" style="endArrow=classic;html=1;rounded=1;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-9" target="qGI_YBjwfrNhiwj2qlSC-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250.06" y="-540" as="sourcePoint" />
+            <mxPoint x="-200.06" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-26" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-11" target="qGI_YBjwfrNhiwj2qlSC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-526.06" y="-710" as="sourcePoint" />
+            <mxPoint x="-476.06" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-27" value="No" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-2" target="qGI_YBjwfrNhiwj2qlSC-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-686.06" y="-710" as="sourcePoint" />
+            <mxPoint x="-606.06" y="-790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-28" value="No" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.05;exitY=0.531;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-4" target="qGI_YBjwfrNhiwj2qlSC-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-296.06" y="-790" as="sourcePoint" />
+            <mxPoint x="-246.06" y="-840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-29" value="Yes" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-4" target="qGI_YBjwfrNhiwj2qlSC-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-286.06" y="-720" as="sourcePoint" />
+            <mxPoint x="-236.06" y="-770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-30" value="Yes" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-2" target="qGI_YBjwfrNhiwj2qlSC-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-756.06" y="-510" as="sourcePoint" />
+            <mxPoint x="-706.06" y="-560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-31" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-13" target="qGI_YBjwfrNhiwj2qlSC-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-776.06" y="-400" as="sourcePoint" />
+            <mxPoint x="-726.06" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-32" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-14" target="qGI_YBjwfrNhiwj2qlSC-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-256.06" y="-280" as="sourcePoint" />
+            <mxPoint x="-206.06" y="-330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-33" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-15" target="qGI_YBjwfrNhiwj2qlSC-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-736.06" y="-300" as="sourcePoint" />
+            <mxPoint x="-686.06" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-40" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="qGI_YBjwfrNhiwj2qlSC-33">
+          <mxGeometry x="-0.4222" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-34" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-16" target="qGI_YBjwfrNhiwj2qlSC-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-796.06" y="-390" as="sourcePoint" />
+            <mxPoint x="-506.06" y="-380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-726.06" y="-180" />
+              <mxPoint x="-806.06" y="-180" />
+              <mxPoint x="-806.06" y="-315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-35" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-15" target="qGI_YBjwfrNhiwj2qlSC-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="-10" as="sourcePoint" />
+            <mxPoint x="-140" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-39" value="Ye" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="qGI_YBjwfrNhiwj2qlSC-35">
+          <mxGeometry x="-0.4077" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-36" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-17" target="qGI_YBjwfrNhiwj2qlSC-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-270" y="40" as="sourcePoint" />
+            <mxPoint x="-220" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-37" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-18" target="qGI_YBjwfrNhiwj2qlSC-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="280" as="sourcePoint" />
+            <mxPoint x="-740" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-38" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="qGI_YBjwfrNhiwj2qlSC-37">
+          <mxGeometry x="-0.1959" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-41" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-19" target="qGI_YBjwfrNhiwj2qlSC-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="-70" as="sourcePoint" />
+            <mxPoint x="-670" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-42" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="qGI_YBjwfrNhiwj2qlSC-18" target="qGI_YBjwfrNhiwj2qlSC-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="20" as="sourcePoint" />
+            <mxPoint x="-130" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGI_YBjwfrNhiwj2qlSC-43" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" connectable="0" parent="qGI_YBjwfrNhiwj2qlSC-42">
+          <mxGeometry x="-0.4878" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
